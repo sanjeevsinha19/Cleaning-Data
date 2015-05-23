@@ -68,3 +68,6 @@ All of the following fields represent the mean of recorded data points for the g
 - fBodyAccJerkMag_std
 - fBodyGyroMag_std
 - fBodyGyroJerkMag_std
+### More information
+
+ `README.txt` and `features_info.txt` files included in the experiment data [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) or find more information on the dataset [homepage](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
