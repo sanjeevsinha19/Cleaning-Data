@@ -8,7 +8,6 @@ The analysis script, `run_analysis.R` reads in the processed experiment to gener
  - The data columns are then given names based on the `features.txt` file.
  - Columns that hold mean or standard deviation measurements are selected from the dataset, while the other measurement columns are excluded from the rest of the analysis.
  - The activity identifiers are replaced with the activity labels based on the `activity_labels.txt` file.
- - Invalid characters (`()` and `-` in this case) are removed from the column names. Also, duplicate phrase `BodyBody` in some columns names is replaced with `Body`.
  - The data is then grouped by subject and activity, and the mean is calculated for every measurement column.
  - Finally, the summary dataset is written to a file, `run_data_summary.txt`.
 
